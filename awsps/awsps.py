@@ -49,8 +49,8 @@ class Awsps(object):
     def get_new_profile(self):
         temp = []
         for i, item in enumerate(self.config.sections()):
+            temp.append(item)
             if i != 0:
-                temp.append(item)
                 print(GREEN + '{}) {}'.format(i, item))
         idx = int(input("\nEnter profile to select: "))
         return temp[idx]

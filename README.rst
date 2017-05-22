@@ -23,6 +23,7 @@ List available profiles:
 .. code-block:: bash
 
   $ awsps -ls
+
   Available Profiles:
   1) profile1
   2) profile2
@@ -34,6 +35,7 @@ View current profile:
 .. code-block:: bash
 
   $ awsps -cp
+
   The current AWS profile is default_awsps
 
 Switch profile:
@@ -41,6 +43,7 @@ Switch profile:
 .. code-block:: bash
 
   $ awsps -sp
+  
   1) profile1
   2) profile1
   3) profile1
