@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="awsps",
-    version='0.1.0',
+    version='0.2.0',
     description='AWS Profile Switcher',
     url='https://github.com/Deepakkothandan/awsps.git',
     author='Deepak Kothandan',

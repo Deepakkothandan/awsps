@@ -40,8 +40,8 @@ Install awsps using pip:
   $ awsps -sp
   
   1) profile1
-  2) profile1
-  3) profile1
+  2) profile2
+  3) profile3
   4) default_awsps
 
   Enter profile to select: 1
